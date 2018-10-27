@@ -1,18 +1,20 @@
 const x = {
     name: 'Kamil',
-    fn: function(){
-        console.log(this, this.name);
+    fn: function(lastname, age){
+        console.log(this, this.name, lastname, age);
     }
 }
 
 const y = {
     name: 'Tomek',
-   /* fn: function(){
-        console.log(this, this.name);
-    }*/
+ 
 }
+/*
+x.fn('koszykowski' , '25');
+x.fn.call(y,'koszykowsi','25');
+x.fn.apply(y,['koszykowski', '25'] );
 
-x.fn();
-x.fn.call(y);
-// y.fn();
-
+*/
+const fn =x.fn.bind(y, 'koszykowski' , '25')
+fn();
+console.log()
