@@ -11,8 +11,8 @@ const y = {
 }
 /*
 x.fn('koszykowski' , '25');
-x.fn.call(y,'koszykowsi','25');
-x.fn.apply(y,['koszykowski', '25'] );
+x.fn.call(y,'koszykowsi','25');          // do zmiany this
+x.fn.apply(y,['koszykowski', '25'] );    // do zmiany this
 
 */
 const fn =x.fn.bind(y, 'koszykowski' , '25')

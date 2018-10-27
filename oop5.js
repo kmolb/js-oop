@@ -1,4 +1,4 @@
-function person(name, age)  {
+function person(name, age)  {  // factory function do stworzenia opektu//
     return{
     name: name,
     age: age,
