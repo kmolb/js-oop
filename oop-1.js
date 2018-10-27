@@ -1,4 +1,8 @@
-function makeCar(color, type, age){
+
+
+
+
+/*function makeCar(color, type, age){
     return {        //zwróc obiekt MakeCar z wartosciami color type age
         color: color,
         type:type,
@@ -14,4 +18,4 @@ function makeCar(color, type, age){
 
 const result = makeCar("red", "suv", 2008)
 
-console.log(result.start()) //zwraca funckje start()
+console.log(result.start()) //zwraca funckje start() */
