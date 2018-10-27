@@ -1,5 +1,5 @@
 function makeCar(color, type, age){
-    return {
+    return {        //zwróc obiekt MakeCar z wartosciami color type age
         color: color,
         type:type,
         age:age,
